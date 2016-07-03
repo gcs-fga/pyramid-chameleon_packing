@@ -1,0 +1,16 @@
+Source: pyramid-chameleon
+Section: unknown
+Priority: optional
+Maintainer: Wesley Araujo <wesley.sickert@gmail.com>
+Build-Depends: debhelper (>= 9), python(>= 2.6.6-3~)
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/pyramid-chameleon.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/pyramid-chameleon.git;a=summary
+
+Package: pyramid-chameleon
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: pyramid-chameleon
+ pyramid_chameleon is a set of bindings that make templates written for the Cham eleon templating system work under the Pyramid web framework
