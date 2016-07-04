@@ -2,7 +2,7 @@ Source: pyramid-chameleon
 Section: unknown
 Priority: optional
 Maintainer: Wesley Araujo <wesley.sickert@gmail.com>
-Build-Depends: debhelper (>= 9), python (>= 2.6.6-3~) 
+Build-Depends: debhelper (>= 9), python (>= 2.6.6-3~), python-setuptools 
 X-Python-Version: >= 2.6
 Standards-Version: 3.9.5
 Homepage: <insert the upstream URL, if relevant>
